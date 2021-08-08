@@ -1,40 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
 body
 {
   color:white;
   border-style: none;
   text-align: center;
-  font-family: 'DM Mono', monospace;
-  background: linear-gradient(45deg, #000000, #230b61);
-  background-size: 400% 400%;
-  -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
-	background-size: 400% 400%;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
-}
-
-@-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  font-family: 'Lora', serif;
+  background: #c0392b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b);
 }
 
 h3 {
@@ -94,13 +71,12 @@ text-align: center;
 }
 
 .buttons {
-  margin-left: 30px;
+  margin-left: 10px;
   list-style: none;
   padding-top: 35px;
 }
 
 .buttons a {
-  font: 15px DM Mono, monospace,
   color: Black;
   text-decoration: none;
   display: block;
@@ -109,11 +85,14 @@ text-align: center;
 
 .buttons>li {
   position: relative;
-  left: 5px;
+  left: -15px;
   float: left;
-  width: 54px;
+  width: 65px;
 }
-
+.buttons>li img{
+  width: 50px;
+  height: 50px;
+}
 .buttons>li:hover {
   border-radius: 20%;
   background-color: #d9d9d9;
