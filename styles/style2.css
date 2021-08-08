@@ -9,7 +9,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     font-size: 100%;
     color: white;
     text-align: center;
-    background: linear-gradient(45deg, #000000, #230b61);
+    background: #c0392b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #c0392b);
     background-size: 100% 100%;
     -webkit-animation: gradient 15s ease infinite;
     animation: gradient 15s ease infinite;

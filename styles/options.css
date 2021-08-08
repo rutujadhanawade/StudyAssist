@@ -1,45 +1,14 @@
 body { 
-font-family: 'DM Mono', monospace;
-color:white;
-text-transform: uppercase;
-background: linear-gradient(45deg, #000000, #230b61);
-  background-size: 400% 400%;
-  -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
+  color:white;
+  border-style: none;
+  text-align: center;
+  font-family: 'Lora', serif;
+  background: #c0392b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b);
 }
-
-@-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-/* {
-  width: 400px;
-  font-family: 'Roboto', sans-serif;
-
-} */
 
 h4 {
   color: black;
