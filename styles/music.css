@@ -1,0 +1,151 @@
+/* RESET STYLES*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    font-family: 'DM Mono', monospace;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, #000000, #230b61);
+    background-size: 100% 100%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    vertical-align: baseline;
+    text-transform: uppercase;
+}
+
+ol, ul {
+    list-style: none;
+    background: transparent;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* ================================ Layout ================================ */
+
+body {
+    /*background-color: #499cc1;*/
+    text-align: left;
+    /*color: #333;*/
+    background: transparent;
+    font: 13px DM Mono, monospace;
+}
+
+.wrapper {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    /*background: #fcfcfc;*/
+    background: transparent;
+}
+
+/* ================================ EO Layout ================================ */
+
+/* ================================ Header ================================ */
+
+header {
+    font: 25px/50px DM Mono, monospace;
+    /*color: #555;*/
+    text-align: center;
+    /*text-shadow: 0 0 1px #499CC1;*/
+    background: transparent;
+}
+
+/* ================================ EO Header ================================ */
+
+/* ================================ Content ================================ */
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  /* position: absolute; */
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);/* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+img {
+    height: 110px;
+    width:300px;
+    border: 2px solid black;
+    border-radius: 24px;
+    border-shadow: 2px;
+    background-color:  rgba(255,255,255);
+    /* opacity:0.5; */
+    font: italic 18px/40px Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+audio
+{
+border-radius:24px;
+
+}
+/*======LIST======*/
+
+
+
+/* ================================ Footer ================================ */
+
+footer {
+    display: none;
+    margin: 30px 0 5px 0;
+    color: #999;
+    text-align: center;
+    font-size: 11px;
+    background: transparent;
+}
+
+footer a {
+    color: #777;
+    background: transparent;
+}
+
+/* ================================ EO Footer ================================ */
+
+/* ================================ Scroll Bar ================================ */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 150, 230, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 150, 230, 0.4);
+}

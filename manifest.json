@@ -1,0 +1,14 @@
+{
+  "name": "Study Helper",
+  "version": "1.2",
+  "description": "Study Helper message",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "tabs", "notifications", "desktopCapture"],
+  "web_accessible_resources": [],
+  "background": {
+    "scripts": ["js/background.js"]
+  }
+}
